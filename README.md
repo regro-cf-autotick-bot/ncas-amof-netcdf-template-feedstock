@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ncas-amof-netcd
 
 Summary: Package to create NCAS AMOF netCDF files.
 
-Documentation: https://ncas-amof-netcdf-template.readthedocs.io/en/latest/index.html
+Documentation: https://ncas-amof-netcdf-template.readthedocs.io/en/stable/index.html
 
 Current build status
 ====================
