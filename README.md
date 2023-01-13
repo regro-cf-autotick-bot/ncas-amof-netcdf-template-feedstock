@@ -1,7 +1,7 @@
 About ncas-amof-netcdf-template
 ===============================
 
-Home: https://github.com/joshua-hampton/ncas_amof_netcdf_template
+Home: https://pypi.org/project/ncas-amof-netcdf-template/
 
 Package license: MIT
 
