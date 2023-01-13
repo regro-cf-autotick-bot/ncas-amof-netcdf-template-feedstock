@@ -1,5 +1,5 @@
 {% set name = "ncas-amof-netcdf-template" %}
-{% set version = "2.1.0" %}
+{% set version = "2.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ncas_amof_netcdf_template-{{ version }}.tar.gz
-  sha256: b238e205691e6138f487af4c3946a5248313bd668a81acd3ca883ca2f053ce56
+  sha256: 3b9fb8b2c891f95904ec9afa64eebdfdc5077bed85f6d34069bf25b81f037ebb
 
 build:
   noarch: python
@@ -34,7 +34,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/joshua-hampton/ncas_amof_netcdf_template
+  home: https://pypi.org/project/ncas-amof-netcdf-template/
   summary: Package to create NCAS AMOF netCDF files.
   license: MIT
   license_file: LICENSE
