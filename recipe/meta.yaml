@@ -34,7 +34,7 @@ test:
     - pip
 
 about:
-  home: https://pypi.org/project/ncas-amof-netcdf-template/
+  home: https://github.com/joshua-hampton/ncas_amof_netcdf_template
   summary: Package to create NCAS AMOF netCDF files.
   license: MIT
   license_file: LICENSE
