@@ -1,5 +1,5 @@
 {% set name = "ncas-amof-netcdf-template" %}
-{% set version = "2.3.2" %}
+{% set version = "2.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ncas_amof_netcdf_template-{{ version }}.tar.gz
-  sha256: ab7baf7daa84710c2f465c613d715eb6e4b5ffb5d88c0615035e744be0b919f0
+  sha256: b7f149704792311d3c4556ea48637489fe6e5106e77a1da70f0ae3ad1b014bf5
 
 build:
   noarch: python
