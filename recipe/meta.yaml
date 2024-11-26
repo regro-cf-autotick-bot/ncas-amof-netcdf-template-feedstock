@@ -6,17 +6,18 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ncas_amof_netcdf_template-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ncas_amof_netcdf_template-{{ version }}.tar.gz
   sha256: c590ce919c5d1694c670808a362c0cf4fcc78a5d26ab191932c49c2c922aa081
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  number: 1
 
 requirements:
   host:
     - python >=3.9,<4.0
+    - setuptools >=61.0
     - pip
   run:
     - python >=3.9,<4.0
